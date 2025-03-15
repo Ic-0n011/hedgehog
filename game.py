@@ -216,6 +216,9 @@ class Game:
             self.field[self.raccoon.y][self.raccoon.x] = cfg.EMPTY
             self.empty_cells.append((self.raccoon.x, self.raccoon.y))
 
+        if self.progress_bar => 3:
+            return "win"
+
         return 'continue'
 
     def play(self) -> str:
