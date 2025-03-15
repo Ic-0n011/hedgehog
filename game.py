@@ -282,7 +282,7 @@ class Hedgehog(GameObject):
         self.img = "↓"
         self.direction = "↓"
         self.speed = 0
-        self.health = 3
+        self.health = 1
         self.charge = 6
         self.steps = 0
 
